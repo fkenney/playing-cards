@@ -3,7 +3,7 @@ package com.tlglearning.cards.model;
 public enum Suit {
   CLUBS('\u2663'),
   DIAMONDS('\u2662'),
-  HEARTS('\u2660'),
+  HEARTS('\u2661'),
   SPADES('\u2660');
 
   private final char symbol;
