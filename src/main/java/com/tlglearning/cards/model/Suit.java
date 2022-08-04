@@ -2,9 +2,9 @@ package com.tlglearning.cards.model;
 
 public enum Suit {
   CLUBS('\u2663', Color.BLACK),
-  DIAMONDS('\u2662', Color.BLACK),
+  DIAMONDS('\u2662', Color.RED),
   HEARTS('\u2661', Color.RED),
-  SPADES('\u2660', Color.RED);
+  SPADES('\u2660', Color.BLACK);
 
   private final char symbol;
   private final Color color;
